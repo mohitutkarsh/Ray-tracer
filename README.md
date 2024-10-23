@@ -1,20 +1,17 @@
 Build your own 3D renderer - Java
 =================================
-
-This repository contains an implementation of the projects outlined in [the Build your own 3D renderer workshop](https://avik-das.github.io/build-your-own-raytracer/). The implementation is in Java, outputting to a .png file.
-
 Quick Start
 -----------
 
 ```sh
-git clone https://github.com/avik-das/build-your-own-raytracer-java.git
-cd build-your-own-raytracer-java
+git clone https://github.com/mohitutkarsh/Ray-tracer.git
+cd Ray-tracer
 
 # Build the raytracer
 gradle build
 
 # Run it, outputting to a file called "test.png" in the current directory
-java -jar build/libs/build-your-own-raytracer-java-1.0-SNAPSHOT.jar test.png
+java -jar build/libs/Raytracer-1.0-SNAPSHOT.jar test.png
 ```
 
 Scene Definition
